@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./signin.css" media="all">
+    <link rel="stylesheet" href="./signin-print.css" media="print">
+    <title>signin</title>
+</head>
+<body>
+    <div id="container">
+        <div id="blue-line"></div>
+
+        <div id="content">
+            <div id="heading">
+                <img src="./icon.svg" alt="logo" />
+                <p>patternfly</p>
+            </div>
+
+            <div id="description">
+                <p>This is placeholder text, only. Use this area to place any information or introductory message about your application that may be relevant for users.</p>
+            </div>
+
+                <div id="form">
+                    <div id="dropdown-container">
+                        <select name="language" id="language-dropdown">
+                            <option value="english">English</option>
+                            <option value="hindi">Hindi</option>
+                        </select>
+                    </div>
+    
+                    <div id="form-heading-container">
+                        <p>Log In to Your Account</p>
+                    </div>
+    
+                    <div id="form-input-container">
+                        <input type="text" name="username" id="username" placeholder="Email or phone or username" required />
+                        <input type="password" name="password" id="password" placeholder="Password" required />
+                    </div>
+    
+                    <div id="forgot-password-container">
+                        <div id="checkbox-container">
+                            <input type="checkbox" name="checkbox" id="checkbox" />
+                            <label for="checkbox">Keep me logged in for 30 days</label>
+                        </div>
+                        <p><span>Forgot password?</span></p>
+                    </div>
+    
+                    <div id="login-button-container">
+                        <button>Log In</button>
+                    </div>
+    
+                    <div id="signup-container">
+                        <p>Need an account? <span><a href="./signup.html">Sign up</a></span></p>
+                    </div>
+                </div>
+            
+            <div id="footer">
+                <div>Terms of Use</div>
+                <div>&bull;</div>
+                <div>Help</div>
+                <div>&bull;</div>
+                <div>Privacy Policy</div>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="module" src="./signin.js"></script>
+</body>
+</html>

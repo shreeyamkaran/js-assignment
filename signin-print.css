@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+}
+
+#container {
+    background-color: rgba(128, 128, 128, 0.199);
+    -webkit-print-color-adjust: exact; /* For Chrome */
+    print-color-adjust: exact; /* For Firefox */
+    background-image: none;
+}
+
+#container #blue-line {
+    display: none;
+}
